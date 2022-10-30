@@ -9,26 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81f25169-1d44-4b29-8f22-0c5217c61690" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novik/MyFirstFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novik/MyFirstServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MyStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/StyleError.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/StyleSuccess.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.html" afterDir="false" />
-    </list>
+    <list default="true" id="81f25169-1d44-4b29-8f22-0c5217c61690" name="Changes" comment="Created LoginServlet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,8 +162,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667124653375</updated>
-      <workItem from="1667124655186" duration="3591000" />
+      <workItem from="1667124655186" duration="3908000" />
     </task>
+    <task id="LOCAL-00001" summary="Created LoginServlet">
+      <created>1667128699687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667128699687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created LoginServlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created LoginServlet" />
   </component>
 </project>
