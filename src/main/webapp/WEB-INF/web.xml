@@ -18,11 +18,11 @@
   </servlet-mapping>
   <filter>
     <filter-name>MyFilter</filter-name>
-    <filter-class>com.novik.MyFirstFilter</filter-class>
+    <filter-class>com.novik.MyFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>MyFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-    <!--        except /hello, comments ctrl /,filters showing everywhere-->
+    <url-pattern>/*/success.html</url-pattern>
+
   </filter-mapping>
 </web-app>

@@ -20,12 +20,13 @@ public class MyFirstServlet extends HttpServlet {
 
         String firstName = req.getParameter("first_name");
         String password = req.getParameter("password");
+          System.out.println(firstName+" "+password);
+        if (firstName.equals("Polina") && password.equals("Novik")) {
 
-//        if (firstName.equals("Polina") && password.equals("Novik")) {
-//            getServletContext().setAttribute("firstName", firstName);
-//            System.out.println("My attribute: " + firstName);
-//
-//        }
+            req.getSession().setAttribute("firstName", firstName);
+            System.out.println("My attribute: " + firstName);
+            req.getRequestDispatcher("success.html").forward(req,resp);
+        }  req.getRequestDispatcher("error.html").forward(req,resp);
     }
     @Override
     public void destroy() {
